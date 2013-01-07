@@ -1,7 +1,6 @@
 # Vim Guru
 
-A simple colorscheme ported from Textmate's "Vibrant Ink" by Jo Vermeulen. This
-fork adds better syntax highlighting for JavaScript.
+A simple colorscheme based on the "Vibrant Ink" port by Jo Vermeulen (for Textmate). I've added some improvements for better syntax highlighting when using JavaScript & personalised a few of the colors.
 
 # License
 
