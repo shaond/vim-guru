@@ -34,6 +34,7 @@ if has("gui_running")
     highlight String guifg=#66FF00
     highlight Search guibg=White
     highlight CursorLine guibg=#323300
+    highlight MatchParen guibg=#b454ff
     
     " Ruby Bindings
     highlight rubySymbol guifg=#339999 gui=NONE
@@ -44,6 +45,8 @@ if has("gui_running")
     " JavaScript Bindings
     highlight javaScriptType guifg=#afe459 gui=NONE
     highlight javaScriptNumber guifg=#66d9ef gui=NONE
+    highlight javaScriptFuncName guifg=#f58e42 gui=NONE
+    " highlight javaScriptFuncName guifg=#ffa542 gui=NONE
 
 else
     set t_Co=256
