@@ -43,11 +43,10 @@ if has("gui_running")
     highlight rubyPseudoVariable guifg=#339999
 
     " JavaScript Bindings
-    highlight javaScriptType guifg=#afe459 gui=NONE
-    highlight javaScriptNumber guifg=#66d9ef gui=NONE
-    highlight javaScriptFuncName guifg=#f58e42 gui=NONE
-    " highlight javaScriptFuncName guifg=#ffa542 gui=NONE
-
+    highlight javaScriptType guifg=#afe459
+    highlight javaScriptNumber guifg=#66d9ef
+    highlight javaScriptFuncName guifg=#f58e42
+    highlight javaScriptThis guifg=#66d9ef
 else
     set t_Co=256
     highlight Normal ctermfg=White ctermbg=Black 
@@ -74,6 +73,8 @@ else
     " JavaScript Bindings
     highlight javaScriptType ctermfg=118
     highlight javaScriptNumber ctermfg=67
+    highlight javaScriptFuncName ctermfg=130
+    highlight javaScriptThis ctermfg=67
 endif
 
 " Colors
