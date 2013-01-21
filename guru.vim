@@ -33,7 +33,7 @@ if has("gui_running")
     highlight Statement guifg=#FF6600 gui=NONE
     highlight String guifg=#66FF00
     highlight Search guibg=White
-    highlight CursorLine guibg=#323300
+    highlight CursorLine guibg=#1a142f
     highlight MatchParen guibg=#b454ff
     
     " Ruby Bindings
