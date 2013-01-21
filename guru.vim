@@ -47,6 +47,10 @@ if has("gui_running")
     highlight javaScriptNumber guifg=#66d9ef
     highlight javaScriptFuncName guifg=#f58e42
     highlight javaScriptThis guifg=#66d9ef
+
+    " General updates for invisible characters
+    highlight NonText guifg=#353535
+    highlight SpecialKey guifg=#353535
 else
     set t_Co=256
     highlight Normal ctermfg=White ctermbg=Black 
