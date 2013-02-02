@@ -53,9 +53,9 @@ if has("gui_running")
     highlight SpecialKey          guifg=#353535
 
     " Adding support for indent guides (GUI only)
-    hi IndentGuidesOdd            guibg=red   ctermbg=3
-    hi IndentGuidesEven           guibg=green ctermbg=4
-    hi Conceal                    guifg=#353535 guibg=NONE
+    highlight IndentGuidesOdd     guibg=red   ctermbg=3
+    highlight IndentGuidesEven    guibg=green ctermbg=4
+    highlight Conceal             guifg=#353535 guibg=NONE
 else
     set t_Co=256
     highlight Normal              ctermfg=White ctermbg=Black 
