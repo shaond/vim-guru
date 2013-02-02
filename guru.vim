@@ -1,4 +1,4 @@
-" VIM color scheme
+" GURU color scheme
 "
 " Name:         guru.vim
 " Maintainer:   Shaon Diwakar <shaon@shaon.net>
