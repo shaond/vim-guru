@@ -24,8 +24,8 @@ if has("gui_running")
     highlight Keyword             guifg=#FF6600
     highlight Define              guifg=#FF6600
     highlight Comment             guifg=#9933CC
-    highlight Type                guifg=White gui=NONE
-    highlight Identifier          guifg=White gui=NONE
+    highlight Type                guifg=White   gui=NONE
+    highlight Identifier          guifg=White   gui=NONE
     highlight Constant            guifg=#FFEE98
     highlight Function            guifg=#FFCC00 gui=NONE
     highlight Include             guifg=#FFCC00 gui=NONE
@@ -53,8 +53,8 @@ if has("gui_running")
     highlight SpecialKey          guifg=#353535
 
     " Adding support for indent guides (GUI only)
-    highlight IndentGuidesOdd     guibg=red   ctermbg=3
-    highlight IndentGuidesEven    guibg=green ctermbg=4
+    highlight IndentGuidesOdd     guibg=red     ctermbg=3
+    highlight IndentGuidesEven    guibg=green   ctermbg=4
     highlight Conceal             guifg=#353535 guibg=NONE
 else
     set t_Co=256
@@ -71,7 +71,7 @@ else
     highlight Statement           ctermfg=202
     highlight String              ctermfg=82 
     highlight Search              ctermbg=White 
-    highlight CursorLine          cterm=NONE ctermbg=235
+    highlight CursorLine          cterm=NONE    ctermbg=235
 
     " Ruby Bindings
     highlight rubySymbol          ctermfg=66 
@@ -89,6 +89,8 @@ endif
 
 
 " --- COLORS ---
+"  Refer to Xterm color chart
+"
 " Foreground      #a0a0a0
 " Background      #161616
 " Highlight bg    #505354
@@ -102,5 +104,5 @@ endif
 " Light Grey      #d6d5d1 214
 " Pink            #ff669d 161
 " Brown           #f2882d
-" hot pink        #6d9cbe 161
+" Hot Pink        #6d9cbe 161
 " Tan             #ffc66d 180
