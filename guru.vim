@@ -24,6 +24,7 @@ if has("gui_running")
     highlight Keyword             guifg=#FF6600
     highlight Define              guifg=#FF6600
     highlight Comment             guifg=#9933CC
+    highlight LineNr              guifg=#dadada gui=NONE
     highlight Type                guifg=White   gui=NONE
     highlight Identifier          guifg=White   gui=NONE
     highlight Constant            guifg=#FFEE98
@@ -31,6 +32,7 @@ if has("gui_running")
     highlight Include             guifg=#FFCC00 gui=NONE
     highlight Statement           guifg=#FF6600 gui=NONE
     highlight String              guifg=#66FF00
+    " highlight Float               guifg=#5fd787
     highlight Search              guibg=White
     highlight CursorLine          guibg=#1a142f
     highlight MatchParen          guibg=#b454ff
@@ -56,6 +58,10 @@ if has("gui_running")
     highlight IndentGuidesOdd     guibg=red     ctermbg=3
     highlight IndentGuidesEven    guibg=green   ctermbg=4
     highlight Conceal             guifg=#353535 guibg=NONE
+
+    " Support for folds
+    highlight FoldColumn          guibg=Black   guifg=#d6d5d1   ctermbg=3
+    highlight Folded              guibg=Black   guifg=#808080
 else
     set t_Co=256
     highlight Normal              ctermfg=White ctermbg=Black 
