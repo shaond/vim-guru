@@ -32,10 +32,10 @@ if has("gui_running")
     highlight Include             guifg=#FFCC00 gui=NONE
     highlight Statement           guifg=#FF6600 gui=NONE
     highlight String              guifg=#66FF00
-    " highlight Float               guifg=#5fd787
     highlight Search              guibg=White
     highlight CursorLine          guibg=#1a142f
     highlight MatchParen          guibg=#b454ff
+    highlight StatusLine          guibg=#dadada guifg=#d70087 gui=NONE
     
     " Ruby Bindings
     highlight rubySymbol          guifg=#339999 gui=NONE
