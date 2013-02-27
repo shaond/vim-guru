@@ -19,8 +19,8 @@ endif
 let g:colors_name = "guru"
 
 if has("gui_running")
-    highlight Normal              guifg=White   guibg=Black
-    highlight Cursor              guifg=Black   guibg=Yellow
+    highlight Normal              guifg=White   guibg=#262626
+    highlight Cursor              guifg=White   guibg=#ff00af
     highlight Keyword             guifg=#FF6600
     highlight Define              guifg=#FF6600
     highlight Comment             guifg=#9933CC
@@ -33,9 +33,9 @@ if has("gui_running")
     highlight Statement           guifg=#FF6600 gui=NONE
     highlight String              guifg=#66FF00
     highlight Search              guibg=White
-    highlight CursorLine          guibg=#1a142f
+    highlight CursorLine          guibg=#303030
     highlight MatchParen          guibg=#b454ff
-    highlight StatusLine          guibg=#dadada guifg=#d70087 gui=NONE
+    highlight StatusLine          guibg=#1c1c1c guifg=#dadada gui=NONE
     
     " Ruby Bindings
     highlight rubySymbol          guifg=#339999 gui=NONE
