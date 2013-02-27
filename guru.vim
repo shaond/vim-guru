@@ -20,11 +20,11 @@ let g:colors_name = "guru"
 
 if has("gui_running")
     highlight Normal              guifg=White   guibg=#262626
-    highlight Cursor              guifg=White   guibg=#ff00af
+    highlight Cursor              guifg=Black   guibg=#bcd427
     highlight Keyword             guifg=#FF6600
     highlight Define              guifg=#FF6600
     highlight Comment             guifg=#9933CC
-    highlight LineNr              guifg=#dadada gui=NONE
+    highlight LineNr              guifg=#8a8a8a gui=NONE
     highlight Type                guifg=White   gui=NONE
     highlight Identifier          guifg=White   gui=NONE
     highlight Constant            guifg=#FFEE98
@@ -32,7 +32,7 @@ if has("gui_running")
     highlight Include             guifg=#FFCC00 gui=NONE
     highlight Statement           guifg=#FF6600 gui=NONE
     highlight String              guifg=#66FF00
-    highlight Search              guibg=White
+    highlight Search              guifg=White   guibg=#d7005f
     highlight CursorLine          guibg=#303030
     highlight MatchParen          guibg=#b454ff
     highlight StatusLine          guibg=#1c1c1c guifg=#dadada gui=NONE
