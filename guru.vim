@@ -44,11 +44,12 @@ if has("gui_running")
     highlight rubyPseudoVariable  guifg=#339999
 
     " JavaScript Bindings
-    highlight javaScriptType      guifg=#afe459
-    highlight javaScriptNumber    guifg=#66d9ef
-    highlight javaScriptFuncName  guifg=#f58e42
-    highlight javaScriptThis      guifg=#66d9ef
-    highlight javaScriptNull      guifg=#d7005f
+    highlight javaScriptType              guifg=#afe459
+    highlight javaScriptNumber            guifg=#66d9ef
+    highlight javaScriptFuncName          guifg=#f58e42
+    highlight javaScriptThis              guifg=#66d9ef
+    highlight javaScriptNull              guifg=#d7005f
+    highlight javaScriptCommentTodo       guifg=#ff0000
 
     " General updates for invisible characters
     highlight NonText             guifg=#353535
