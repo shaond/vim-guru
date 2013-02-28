@@ -34,8 +34,11 @@ if has("gui_running")
     highlight String              guifg=#66FF00
     highlight Search              guifg=White   guibg=#d7005f
     highlight CursorLine          guibg=#303030
-    highlight MatchParen          guibg=#b454ff
+    highlight CursorColumn        guibg=#303030
+    highlight CursorLineNr        guibg=#303030
+    highlight MatchParen          guibg=#ff00af
     highlight StatusLine          guibg=#1c1c1c guifg=#dadada gui=NONE
+    highlight Visual              guibg=#444444
     
     " Ruby Bindings
     highlight rubySymbol          guifg=#339999 gui=NONE
