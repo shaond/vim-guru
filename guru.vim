@@ -64,8 +64,8 @@ if has("gui_running")
     highlight Conceal             guifg=#353535 guibg=NONE
 
     " Support for folds
-    highlight FoldColumn          guibg=Black   guifg=#d6d5d1   ctermbg=3
-    highlight Folded              guibg=Black   guifg=#808080
+    highlight FoldColumn          guibg=#262626   guifg=#d6d5d1
+    highlight Folded              guibg=#262626   guifg=#808080
 else
     set t_Co=256
     highlight Normal              ctermfg=White ctermbg=Black 
