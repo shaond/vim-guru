@@ -24,7 +24,7 @@ if has("gui_running")
     highlight Keyword             guifg=#FF6600
     highlight Define              guifg=#FF6600
     highlight Comment             guifg=#9933CC
-    highlight LineNr              guifg=#8a8a8a gui=NONE
+    highlight LineNr              guifg=#8a8a8a guibg=NONE gui=NONE
     highlight Type                guifg=White   gui=NONE
     highlight Identifier          guifg=White   gui=NONE
     highlight Constant            guifg=#FFEE98
@@ -39,6 +39,7 @@ if has("gui_running")
     highlight MatchParen          guibg=#ff00af
     highlight StatusLine          guibg=#1c1c1c guifg=#dadada gui=NONE
     highlight Visual              guibg=#444444
+    highlight VertSplit           guifg=#303030 guibg=#303030 gui=NONE
     
     " Ruby Bindings
     highlight rubySymbol          guifg=#339999 gui=NONE
