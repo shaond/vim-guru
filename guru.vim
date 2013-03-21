@@ -39,7 +39,7 @@ if has("gui_running")
     highlight MatchParen          guibg=#ff00af
     highlight StatusLine          guibg=#1c1c1c guifg=#dadada gui=NONE
     highlight Visual              guibg=#444444
-    highlight VertSplit           guifg=#303030 guibg=#303030 gui=NONE
+    highlight VertSplit           guifg=#444444 guibg=#3a3a3a gui=NONE
     
     " Ruby Bindings
     highlight rubySymbol          guifg=#339999 gui=NONE
