@@ -36,10 +36,23 @@ if has("gui_running")
     highlight CursorLine          guibg=#303030
     highlight CursorColumn        guibg=#303030
     highlight CursorLineNr        guibg=#303030
-    highlight MatchParen          guibg=#ff00af
+    highlight MatchParen          guibg=#ff0087
     highlight StatusLine          guibg=#1c1c1c guifg=#dadada gui=NONE
     highlight Visual              guibg=#444444
     highlight VertSplit           guifg=#444444 guibg=#3a3a3a gui=NONE
+    highlight DiffAdd             guibg=#00d700
+    highlight DiffChange          guibg=#8700ff
+    highlight DiffDelete          guibg=#87005f
+    highlight DiffText            guibg=#0000d7
+    highlight ErrorMsg            guibg=#d7005f
+    highlight WarningMsg          guifg=#d7005f
+    highlight Pmenu               guifg=#bcbcbc guibg=#1c1c1c
+    highlight PmenuSbar           guifg=#d700d7
+    highlight PmenuSel            guibg=#808080
+    highlight PmenuThumb          guibg=#ffff00
+
+    " Spelling highlight
+    highlight SpellBad            gui=underline
     
     " Ruby Bindings
     highlight rubySymbol          guifg=#339999 gui=NONE
@@ -67,35 +80,6 @@ if has("gui_running")
     " Support for folds
     highlight FoldColumn          guibg=#262626   guifg=#d6d5d1
     highlight Folded              guibg=#262626   guifg=#808080
-else
-    set t_Co=256
-    highlight Normal              ctermfg=White ctermbg=Black 
-    highlight Cursor              ctermfg=Black ctermbg=Yellow 
-    highlight Keyword             ctermfg=202 
-    highlight Define              ctermfg=202 
-    highlight Comment             ctermfg=98
-    highlight Type                ctermfg=White 
-    highlight Identifier          ctermfg=White 
-    highlight Constant            ctermfg=228 
-    highlight Function            ctermfg=220 
-    highlight Include             ctermfg=220 
-    highlight Statement           ctermfg=202
-    highlight String              ctermfg=82 
-    highlight Search              ctermbg=White 
-    highlight CursorLine          cterm=NONE    ctermbg=235
-
-    " Ruby Bindings
-    highlight rubySymbol          ctermfg=66 
-    highlight rubyStringDelimiter ctermfg=82 
-    highlight rubyInterpolation   ctermfg=White 
-    highlight rubyPseudoVariable  ctermfg=66 
-
-    " JavaScript Bindings
-    highlight javaScriptType      ctermfg=118
-    highlight javaScriptNumber    ctermfg=67
-    highlight javaScriptFuncName  ctermfg=130
-    highlight javaScriptThis      ctermfg=67
-    highlight javaScriptNull      ctermfg=161
 endif
 
 
