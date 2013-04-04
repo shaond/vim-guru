@@ -40,16 +40,19 @@ if has("gui_running")
     highlight StatusLine          guibg=#1c1c1c guifg=#dadada gui=NONE
     highlight Visual              guibg=#444444
     highlight VertSplit           guifg=#444444 guibg=#3a3a3a gui=NONE
-    highlight DiffAdd             guibg=#00d700
-    highlight DiffChange          guibg=#8700ff
-    highlight DiffDelete          guibg=#87005f
-    highlight DiffText            guibg=#0000d7
     highlight ErrorMsg            guibg=#d7005f
     highlight WarningMsg          guifg=#d7005f
     highlight Pmenu               guifg=#bcbcbc guibg=#1c1c1c
     highlight PmenuSbar           guifg=#d700d7
     highlight PmenuSel            guibg=#808080
     highlight PmenuThumb          guibg=#ffff00
+
+    " Diff colours
+    "highlight DiffAdd             guibg=#005f00
+    highlight DiffAdd             guibg=#005f5f
+    highlight DiffChange          guibg=#8700ff
+    highlight DiffDelete          guibg=#d7005f guifg=#af005f
+    highlight DiffText            guibg=#0000af
 
     " Spelling highlight
     highlight SpellBad            gui=underline
