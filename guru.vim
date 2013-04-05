@@ -21,17 +21,17 @@ let g:colors_name = "guru"
 if has("gui_running")
     highlight Normal              guifg=White   guibg=#262626
     highlight Cursor              guifg=Black   guibg=#bcd427
-    highlight Keyword             guifg=#FF6600
-    highlight Define              guifg=#FF6600
-    highlight Comment             guifg=#9933CC
+    highlight Keyword             guifg=#ff6600
+    highlight Define              guifg=#ff6600
+    highlight Comment             guifg=#9933cc
     highlight LineNr              guifg=#8a8a8a guibg=NONE gui=NONE
     highlight Type                guifg=White   gui=NONE
     highlight Identifier          guifg=White   gui=NONE
-    highlight Constant            guifg=#FFEE98
-    highlight Function            guifg=#FFCC00 gui=NONE
-    highlight Include             guifg=#FFCC00 gui=NONE
-    highlight Statement           guifg=#FF6600 gui=NONE
-    highlight String              guifg=#66FF00
+    highlight Constant            guifg=#ffee98
+    highlight Function            guifg=#ffcc00 gui=NONE
+    highlight Include             guifg=#ffcc00 gui=NONE
+    highlight Statement           guifg=#ff6600 gui=NONE
+    highlight String              guifg=#66ff00
     highlight Search              guifg=White   guibg=#d7005f
     highlight CursorLine          guibg=#303030
     highlight CursorColumn        guibg=#303030
@@ -59,7 +59,7 @@ if has("gui_running")
     
     " Ruby Bindings
     highlight rubySymbol          guifg=#339999 gui=NONE
-    highlight rubyStringDelimiter guifg=#66FF00
+    highlight rubyStringDelimiter guifg=#66ff00
     highlight rubyInterpolation   guifg=White
     highlight rubyPseudoVariable  guifg=#339999
 
@@ -70,6 +70,8 @@ if has("gui_running")
     highlight javaScriptThis              guifg=#66d9ef
     highlight javaScriptNull              guifg=#d7005f
     highlight javaScriptCommentTodo       guifg=#ff0000
+    highlight jsThis                      guifg=#66d9ef
+    highlight jsNull                      guifg=#d7005f
 
     " General updates for invisible characters
     highlight NonText             guifg=#353535
@@ -83,6 +85,10 @@ if has("gui_running")
     " Support for folds
     highlight FoldColumn          guibg=#262626   guifg=#d6d5d1
     highlight Folded              guibg=#262626   guifg=#808080
+
+    " Support for vim-indent-guides
+    "highlight IndentGuidesOdd  guibg=#
+    "highlight IndentGuidesEven guibg=green ctermbg=4
 endif
 
 
