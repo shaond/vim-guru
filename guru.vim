@@ -72,6 +72,7 @@ if has("gui_running")
     highlight javaScriptCommentTodo       guifg=#ff0000
     highlight jsThis                      guifg=#66d9ef
     highlight jsNull                      guifg=#d7005f
+    highlight jsNumber                    guifg=#66d9ef
 
     " General updates for invisible characters
     highlight NonText             guifg=#353535
