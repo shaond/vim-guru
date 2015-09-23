@@ -56,7 +56,7 @@ if has("gui_running")
 
     " Spelling highlight
     highlight SpellBad            gui=underline
-    
+
     " Ruby Bindings
     highlight rubySymbol          guifg=#339999 gui=NONE
     highlight rubyStringDelimiter guifg=#66ff00
@@ -73,6 +73,8 @@ if has("gui_running")
     highlight jsThis                      guifg=#66d9ef
     highlight jsNull                      guifg=#d7005f
     highlight jsNumber                    guifg=#66d9ef
+    highlight jsFunctionKey               guifg=#afe459
+    highlight jsPrototype                 guifg=#6d9cbe
 
     " General updates for invisible characters
     highlight NonText             guifg=#353535
