@@ -96,7 +96,7 @@ highlight link diffSubname      Comment
 
 call s:hifg("Normal","#EEEEEE","White",87)
 if &background == "light" || has("gui_running")
-    hi Normal guibg=#262626 ctermbg=#262626
+    hi Normal guibg=#262626 ctermbg=Gray
 else
     hi Normal guibg=#262626 ctermbg=NONE
 endif
